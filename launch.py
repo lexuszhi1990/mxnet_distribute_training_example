@@ -25,8 +25,8 @@ import os, sys
 import signal
 import logging
 
-import opts as dmlc_tracker_opts
-import ssh as ssh_tracker
+from tracker import opts as dmlc_tracker_opts
+from tracker import ssh as ssh_tracker
 
 def dmlc_opts(opts):
     """convert from mxnet's opts to dmlc's opts
